@@ -57,7 +57,7 @@ A single mom with a full-time job. No lab, no clinic, just a protocol. · **6 pi
 |---|---|---|---|---|
 | 16:9 3840x2160 | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_3840x2160_MASTER.mp4) | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_3840x2160_VISUALS_ONLY.mp4) | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_3840x2160_TEXT_ON_BLACK.mp4) | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_3840x2160_TEXT_ALPHA.webm) |
 | 1:1 2160x2160 | rendering | rendering | rendering | rendering |
-| 9:16 2160x3840 | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_2160x3840_MASTER.mp4) | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_2160x3840_VISUALS_ONLY.mp4) | rendering | rendering |
+| 9:16 2160x3840 | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_2160x3840_MASTER.mp4) | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_2160x3840_VISUALS_ONLY.mp4) | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_2160x3840_TEXT_ON_BLACK.mp4) | [download](https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V4_LLA_PROTOCOL_2160x3840_TEXT_ALPHA.webm) |
 | 4:5 2160x2700 | rendering | rendering | rendering | rendering |
 
 ## ProRes 4444 with alpha
@@ -65,4 +65,4 @@ A single mom with a full-time job. No lab, no clinic, just a protocol. · **6 pi
 Broadcast text layers, over the 100 MB file limit, so they live on the release page: [ProRes 4444 alpha files](https://github.com/gitteromri-ux/lla-julie-animations/releases/tag/v4-prores)
 
 
-Files live right now: **54 of 60**.
+Files live right now: **56 of 60**.
