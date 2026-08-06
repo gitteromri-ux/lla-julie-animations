@@ -1,327 +1,136 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Julie Gibson Clark · Data Animations and Opening Buildup · Longevity Life Academy</title>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Julie Gibson Clark · Trailer Animations V3 · 4K</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#04050A;--navy:#0A1428;--blue:#006EFF;--blue2:#5EB6FF;--gold:#E8C88A;--gold2:#FFF0CF;--cream:#F4EFE6}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--ink);color:var(--cream);font-family:'Inter Tight',system-ui,sans-serif;font-size:19px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-.wrap{max-width:1280px;margin:0 auto;padding:0 40px}
-h1,h2,h3,.disp{font-family:'Instrument Serif',Georgia,serif;font-weight:400;letter-spacing:-.5px}
-.it{font-style:italic;color:var(--gold2)}
-a{color:inherit}
+:root{--navy0:#04070F;--navy1:#081428;--navy2:#0E2247;--white:#fff;--ice:#E4F1FF;--pale:#9CC9F5;--lblue:#5EB6FF;--blue:#1E7BFF}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--navy0);color:var(--ice);font-family:'Inter Tight',sans-serif;font-size:19px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1400px;margin:0 auto;padding:0 40px}
+header{position:relative;padding:96px 0 56px;overflow:hidden}
+header:before{content:"";position:absolute;left:-10%;top:-40%;width:70%;height:160%;background:radial-gradient(closest-side,rgba(94,182,255,.30),transparent 70%);filter:blur(30px)}
+header:after{content:"";position:absolute;right:-5%;top:-30%;width:45%;height:140%;background:radial-gradient(closest-side,rgba(30,123,255,.22),transparent 70%);filter:blur(40px)}
+.brand{position:relative;font-family:'Instrument Serif',serif;font-size:26px;letter-spacing:.01em}
+.brand b{color:var(--lblue);font-weight:400}
+h1{position:relative;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(50px,7.4vw,104px);line-height:1.02;letter-spacing:-.015em;color:#fff;margin:26px 0 18px}
+h1 i{color:var(--lblue)}
+.sub{position:relative;max-width:920px;font-size:23px;font-weight:500;color:var(--pale)}
+nav{position:sticky;top:0;z-index:40;background:rgba(4,7,15,.86);backdrop-filter:blur(18px);box-shadow:0 20px 40px -30px rgba(0,0,0,.9)}
+nav .wrap{display:flex;gap:14px;padding:16px 40px}
+button.tab{font-family:'Inter Tight';font-size:19px;font-weight:800;letter-spacing:.02em;color:var(--pale);background:rgba(14,34,71,.55);border:0;border-radius:14px;padding:15px 30px;cursor:pointer;transition:.25s}
+button.tab:hover{color:#fff;background:rgba(30,123,255,.30)}
+button.tab.on{color:#fff;background:linear-gradient(180deg,#2E8BFF,#1462DD);box-shadow:0 0 34px rgba(94,182,255,.55),0 18px 34px -18px rgba(0,0,0,.9)}
+section{display:none;padding:64px 0 110px}section.on{display:block}
+h2{font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(38px,4.6vw,66px);line-height:1.06;color:#fff;margin-bottom:14px}
+h2 i{color:var(--lblue)}
+.lead{font-size:21px;font-weight:500;color:var(--pale);max-width:900px;margin-bottom:44px}
+.stats{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 46px}
+.chip{background:linear-gradient(180deg,rgba(20,48,96,.9),rgba(8,20,40,.9));border-radius:18px;padding:22px 28px;min-width:190px;box-shadow:inset 0 1px 0 rgba(158,205,255,.18),0 26px 50px -30px #000}
+.chip b{display:block;font-size:40px;font-weight:900;letter-spacing:-.03em;color:#fff;line-height:1}
+.chip span{display:block;margin-top:8px;font-size:16px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--lblue)}
+.film{background:linear-gradient(180deg,rgba(14,34,71,.55),rgba(4,7,15,.6));border-radius:26px;padding:26px;margin-bottom:46px;box-shadow:inset 0 1px 0 rgba(158,205,255,.16),0 50px 90px -50px #000}
+.film h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:40px;color:#fff;margin-bottom:6px}
+.film p.k{font-size:19px;font-weight:800;color:var(--lblue);margin-bottom:22px}
+video{width:100%;display:block;border-radius:16px;background:#04070F;box-shadow:0 40px 80px -40px #000}
+.dl{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+a.b{display:inline-flex;align-items:center;gap:10px;font-size:17px;font-weight:800;text-decoration:none;color:#fff;background:linear-gradient(180deg,#2E8BFF,#1462DD);padding:15px 24px;border-radius:14px;box-shadow:0 0 30px rgba(94,182,255,.42),0 16px 30px -16px #000;transition:.22s}
+a.b:hover{transform:translateY(-2px);box-shadow:0 0 44px rgba(94,182,255,.7),0 20px 34px -16px #000}
+a.b.g{background:linear-gradient(180deg,rgba(23,54,104,.95),rgba(10,24,48,.95));box-shadow:inset 0 1px 0 rgba(158,205,255,.2),0 16px 30px -18px #000}
+table{width:100%;border-collapse:separate;border-spacing:0 10px;font-size:18px}
+td,th{text-align:left;padding:18px 22px;background:rgba(14,34,71,.5)}
+th{font-size:15px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--lblue);background:transparent;padding-bottom:4px}
+td:first-child{border-radius:14px 0 0 14px;font-weight:800;color:#fff}
+td:last-child{border-radius:0 14px 14px 0}
+.sc{background:linear-gradient(180deg,rgba(14,34,71,.5),rgba(4,7,15,.5));border-radius:22px;padding:34px 36px;margin-bottom:22px;box-shadow:inset 0 1px 0 rgba(158,205,255,.14),0 40px 70px -46px #000}
+.sc .n{font-family:'Instrument Serif',serif;font-size:96px;line-height:.8;color:rgba(94,182,255,.30)}
+.sc h4{font-family:'Instrument Serif',serif;font-weight:400;font-size:38px;color:#fff;margin:6px 0 12px}
+.sc p{font-size:19px;color:var(--ice);max-width:1000px;margin-bottom:8px}
+.sc p b{color:var(--lblue)}
+footer{background:var(--navy1);padding:56px 0;font-size:17px;color:var(--pale)}
+@media(max-width:760px){.wrap,nav .wrap{padding:0 22px}nav .wrap{padding:12px 22px;overflow-x:auto}header{padding:60px 0 36px}.sc .n{font-size:70px}}
+</style></head><body>
+<header><div class="wrap">
+<div class="brand"><b>Longevity</b> Life Academy <span style="color:#1E7BFF">by eTeacher Group</span></div>
+<h1>Julie Gibson Clark<br><i>Trailer animation package</i></h1>
+<p class="sub">Two six second cinematic data animations, delivered in 4K across every Meta and YouTube size, plus separated layers so the editor can move text and visuals independently.</p>
+</div></header>
+<nav><div class="wrap">
+<button class="tab on" data-t="anim">Animations</button>
+<button class="tab" data-t="editor">Editor</button>
+<button class="tab" data-t="story">Storyboard</button>
+</div></nav>
 
-/* ---------- hero ---------- */
-.hero{position:relative;min-height:96vh;display:flex;align-items:center;overflow:hidden;border-bottom:1px solid rgba(94,182,255,.14)}
-.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}
-.hero .veil{position:absolute;inset:0;background:
- linear-gradient(90deg,rgba(4,5,10,.96) 0%,rgba(4,5,10,.82) 42%,rgba(4,5,10,.30) 72%,rgba(4,5,10,.72) 100%),
- linear-gradient(180deg,rgba(4,5,10,.6) 0%,rgba(4,5,10,0) 30%,rgba(4,5,10,.9) 100%)}
-.hero .in{position:relative;z-index:2;padding:120px 0 100px}
-.hero h1{font-size:clamp(56px,7.4vw,116px);line-height:1.0;max-width:16ch}
-.lede{margin-top:32px;max-width:60ch;font-size:22px;color:rgba(240,244,252,.86)}
-.stats{margin-top:56px;display:flex;flex-wrap:wrap;gap:18px}
-.stat{padding:22px 30px 20px;border-radius:18px;background:linear-gradient(160deg,rgba(255,255,255,.075),rgba(255,255,255,.02));
- border:1px solid rgba(150,190,255,.16);box-shadow:0 30px 70px -30px rgba(0,60,160,.6),inset 0 1px 0 rgba(255,255,255,.08);backdrop-filter:blur(8px)}
-.stat b{display:block;font-family:'Instrument Serif',serif;font-size:54px;line-height:1;letter-spacing:-1px}
-.stat span{display:block;margin-top:8px;font-size:15px;font-weight:600;letter-spacing:2.6px;text-transform:uppercase;color:rgba(200,220,248,.7)}
-.stat.g b{color:var(--gold2)} .stat.b b{color:var(--blue2)}
-
-/* ---------- sections ---------- */
-section{padding:132px 0;position:relative}
-.rule{height:1px;background:linear-gradient(90deg,rgba(94,182,255,.55),rgba(94,182,255,0))}
-.snum{font-family:'Instrument Serif',serif;font-size:22px;color:var(--blue2);letter-spacing:5px}
-h2{font-size:clamp(44px,5.4vw,84px);line-height:1.04;margin-top:22px;max-width:22ch}
-.sub{margin-top:26px;max-width:64ch;font-size:21px;color:rgba(236,242,252,.8)}
-
-/* ---------- animation cards ---------- */
-.anim{margin-top:76px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:60px;align-items:center}
-.vidwrap{position:relative;border-radius:22px;overflow:hidden;background:#000;
- box-shadow:0 60px 120px -40px rgba(0,50,140,.75),0 0 0 1px rgba(150,190,255,.18),inset 0 1px 0 rgba(255,255,255,.06)}
-.vidwrap video{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;background:#000}
-.vidwrap.gold{box-shadow:0 60px 120px -40px rgba(140,100,20,.6),0 0 0 1px rgba(232,200,138,.22),inset 0 1px 0 rgba(255,255,255,.06)}
-.tag{font-size:15px;font-weight:600;letter-spacing:3.2px;text-transform:uppercase;color:rgba(200,220,248,.66)}
-.aname{font-family:'Instrument Serif',serif;font-size:52px;line-height:1.06;margin-top:14px}
-.what{margin-top:20px;font-size:20px;color:rgba(238,243,252,.86)}
-.beats{margin-top:30px;border-top:1px solid rgba(150,190,255,.16)}
-.beat{display:grid;grid-template-columns:88px 1fr;gap:20px;padding:14px 0;border-bottom:1px solid rgba(150,190,255,.12)}
-.beat i{font-style:normal;font-family:'Instrument Serif',serif;font-size:24px;color:var(--blue2)}
-.beat p{font-size:18px;color:rgba(234,240,250,.84)}
-.btns{margin-top:30px;display:flex;flex-wrap:wrap;gap:14px}
-.btn{display:inline-block;padding:16px 28px;border-radius:999px;text-decoration:none;font-size:16px;font-weight:600;letter-spacing:.3px;
- background:linear-gradient(180deg,var(--blue),#0057cc);box-shadow:0 20px 44px -18px rgba(0,110,255,.9),inset 0 1px 0 rgba(255,255,255,.28);color:#fff}
-.btn.g{background:linear-gradient(180deg,#F0D6A2,#D2A85F);color:#1A1206;box-shadow:0 20px 44px -18px rgba(232,200,138,.7),inset 0 1px 0 rgba(255,255,255,.5)}
-.btn.o{background:transparent;border:1px solid rgba(160,198,255,.4);box-shadow:none;color:var(--cream)}
-
-/* ---------- storyboard ---------- */
-.scene{margin-top:96px}
-.plate{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:16/9;
- box-shadow:0 70px 130px -50px rgba(0,0,0,.95),0 0 0 1px rgba(150,190,255,.16)}
-.plate img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.plate .grade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,5,10,.34) 0%,rgba(4,5,10,.05) 40%,rgba(4,5,10,.78) 100%)}
-.tc{position:absolute;left:26px;top:24px;z-index:3;font-size:14px;font-weight:700;letter-spacing:3px;color:rgba(255,255,255,.9);
- background:rgba(4,5,10,.6);padding:8px 14px;border-radius:6px;backdrop-filter:blur(6px)}
-.lens{position:absolute;right:26px;top:24px;z-index:3;font-size:14px;font-weight:600;letter-spacing:2.4px;color:rgba(255,255,255,.82);
- background:rgba(4,5,10,.55);padding:8px 14px;border-radius:6px;backdrop-filter:blur(6px)}
-/* the real on-screen card treatments */
-.card{position:absolute;z-index:4}
-.c-center{left:0;right:0;bottom:11%;text-align:center}
-.c-center b{display:inline-block;font-family:'Inter Tight',sans-serif;font-weight:700;font-size:clamp(22px,3.5vw,54px);letter-spacing:-.4px;color:#fff;
- text-shadow:0 8px 40px rgba(0,0,0,.95),0 2px 10px rgba(0,0,0,.9)}
-.c-ul{left:6%;top:12%} .c-ll{left:6%;bottom:13%} .c-lr{right:6%;bottom:13%;text-align:right}
-.c-ul .k1{font-family:'Instrument Serif',serif;font-size:clamp(26px,3.6vw,52px);color:#fff;text-shadow:0 6px 30px rgba(0,0,0,.9)}
-.c-ul .k2{margin-top:8px;font-size:clamp(14px,1.6vw,24px);color:rgba(255,255,255,.72)}
-.c-ll .box{display:inline-block;background:rgba(20,22,26,.72);padding:14px 22px;border-radius:4px;font-weight:700;font-size:clamp(18px,2.4vw,36px);color:#fff}
-.c-ll .n{margin-top:10px;font-size:clamp(13px,1.4vw,20px);color:rgba(240,236,225,.76)}
-.c-lr .r{font-weight:700;font-size:clamp(15px,1.6vw,24px);color:#fff;letter-spacing:.6px}
-.c-lr .r em{font-style:normal;font-size:1.6em}
-.endcard{position:absolute;inset:0;z-index:5;background:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:.97}
-.endcard .n{font-family:'Instrument Serif',serif;font-size:clamp(30px,5vw,74px);color:#0A0C10}
-.endcard .b{margin-top:14px;font-size:clamp(12px,1.3vw,18px);font-weight:700;letter-spacing:5px;text-transform:uppercase;color:#2A3340}
-.spec{margin-top:34px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(150,190,255,.16);border:1px solid rgba(150,190,255,.16);border-radius:16px;overflow:hidden}
-.spec>div{background:#080A11;padding:26px 28px}
-.spec h4{font-size:14px;font-weight:700;letter-spacing:2.8px;text-transform:uppercase;color:var(--blue2);margin-bottom:12px}
-.spec p{font-size:17.5px;line-height:1.58;color:rgba(234,240,250,.86)}
-.spec .vo{font-family:'Instrument Serif',serif;font-size:26px;line-height:1.34;color:var(--gold2);font-style:italic}
-.sceneHead{display:flex;flex-wrap:wrap;align-items:baseline;gap:20px;margin-bottom:26px}
-.sceneHead .no{font-family:'Instrument Serif',serif;font-size:74px;line-height:1;color:rgba(255,240,207,.2)}
-.sceneHead .ti{font-family:'Instrument Serif',serif;font-size:44px;line-height:1.1}
-.sceneHead .tt{font-size:15px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:rgba(200,220,248,.62)}
-
-/* ---------- table ---------- */
-table{width:100%;border-collapse:collapse;margin-top:44px;font-size:18px}
-th,td{text-align:left;padding:20px 22px;border-bottom:1px solid rgba(150,190,255,.14);vertical-align:top}
-th{font-size:14px;font-weight:700;letter-spacing:2.6px;text-transform:uppercase;color:var(--blue2)}
-td b{color:var(--gold2);font-weight:600}
-.note{margin-top:64px;padding:38px 42px;border-radius:20px;background:linear-gradient(160deg,rgba(0,110,255,.12),rgba(255,255,255,.02));border:1px solid rgba(120,175,255,.24)}
-.note h3{font-size:34px;margin-bottom:14px}
-footer{padding:96px 0 120px;border-top:1px solid rgba(94,182,255,.16);background:#03040A}
-footer p{font-size:17px;color:rgba(210,222,240,.66);max-width:80ch}
-footer a{color:var(--blue2);text-decoration:none;border-bottom:1px solid rgba(94,182,255,.35)}
-.srcs{margin-top:22px;display:grid;gap:10px}
-.reveal{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
-.reveal.on{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-@media (max-width:1000px){
- .wrap{padding:0 24px}
- .anim{grid-template-columns:1fr;gap:34px}
- .spec{grid-template-columns:1fr}
- .hero h1{max-width:none}
- section{padding:88px 0}
-}
-</style></head>
-<body>
-
-<div class="hero">
-  <video src="media/V2_LLA_JULIE_A_PACE_6S_1080.mp4" autoplay muted loop playsinline preload="auto" poster="media/posterA.jpg"></video>
-  <div class="veil"></div>
-  <div class="in wrap">
-    <h1>She lives ten years.<br><span class="it">Her body ages six.</span></h1>
-    <p class="lede">Two six second data animations and a five scene opening buildup for the Julie Gibson Clark masterclass. Built on her measured DunedinPACE result of 0.665 against a population average of 1.00.</p>
-    <div class="stats">
-      <div class="stat g"><b>0.665</b><span>Her pace of aging</span></div>
-      <div class="stat b"><b>1.00</b><span>Average human pace</span></div>
-      <div class="stat g"><b>33.5%</b><span>Slower than average</span></div>
-      <div class="stat b"><b>No.&nbsp;2</b><span>Leaderboard rank held</span></div>
-      <div class="stat g"><b>$100</b><span>Monthly protocol cost</span></div>
-    </div>
-  </div>
+<section id="anim" class="on"><div class="wrap">
+<h2>The two films, <i>fully composited</i></h2>
+<p class="lead">Everything below is the finished version with visuals and typography together. Preview plays at 1080. Every download is true 4K, 30fps, H.264.</p>
+<div class="stats">
+<div class="chip"><b>2</b><span>Animations</span></div>
+<div class="chip"><b>4</b><span>Aspect ratios</span></div>
+<div class="chip"><b>3840</b><span>Widest master</span></div>
+<div class="chip"><b>6.0s</b><span>Each film</span></div>
+<div class="chip"><b>32</b><span>Video files</span></div>
 </div>
 
-<section id="animations"><div class="wrap">
-  <div class="rule"></div>
-  <div class="snum reveal">01 · THE ANIMATIONS</div>
-  <h2 class="reveal">Two ways to show the same fact, six seconds each.</h2>
-  <p class="sub reveal">Both are composited over real cinematic plates, finished at 60 frames per second, 1080 by 1080, silent by design so they carry sound-off in feed. Every figure on screen is measured, never estimated.</p>
+<div class="film">
+<h3>Animation A · The Pace</h3>
+<p class="k">Ten years pass. She ages six. Payoff: 3.35 years she never aged.</p>
+<video src="media/PREV_A_PACE_169.mp4" autoplay muted loop playsinline></video>
+<div class="dl">
+<a class="b" href="media/V3_LLA_A_PACE_3840x2160_MASTER.mp4" download>16:9 · 3840×2160 · YouTube</a>
+<a class="b" href="media/V3_LLA_A_PACE_2160x2160_MASTER.mp4" download>1:1 · 2160×2160 · Feed</a>
+<a class="b" href="media/V3_LLA_A_PACE_2160x3840_MASTER.mp4" download>9:16 · 2160×3840 · Reels</a>
+<a class="b" href="media/V3_LLA_A_PACE_1728x2160_MASTER.mp4" download>4:5 · 1728×2160 · Feed</a>
+</div>
+</div>
 
-  <div class="anim reveal">
-    <div class="vidwrap gold">
-      <video src="media/V2_LLA_JULIE_A_PACE_6S_1080.mp4" autoplay muted loop playsinline preload="auto" poster="media/posterA.jpg" controls></video>
-    </div>
-    <div>
-      <div class="tag">Animation A</div>
-      <div class="aname">The Pace</div>
-      <p class="what">Ten years of life run as a race between two people. The average adult finishes with ten biological years added. Julie finishes with 6.65. The gap resolves into the only number that matters.</p>
-      <div class="beats">
-        <div class="beat"><i>0.0s</i><p>Gold ink enters a black frame. The claim lands before anything else.</p></div>
-        <div class="beat"><i>0.9s</i><p>Both rails start the same ten years. The counters begin to separate.</p></div>
-        <div class="beat"><i>3.6s</i><p>10.00 against 6.65. The unlived remainder lights up in gold.</p></div>
-        <div class="beat"><i>4.3s</i><p><b>3.35 years she never aged.</b></p></div>
-        <div class="beat"><i>5.0s</i><p>Resolve card, pace of aging 0.665, brand line last.</p></div>
-      </div>
-      <div class="btns">
-        <a class="btn g" href="media/V2_LLA_JULIE_A_PACE_6S_1080.mp4" download>Download MP4</a>
-        <a class="btn o" href="media/V2_LLA_JULIE_A_PACE_6S.gif" download>Download GIF</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="anim reveal" style="margin-top:110px">
-    <div class="vidwrap">
-      <video src="media/V2_LLA_JULIE_B_CURVE_6S_1080.mp4" autoplay muted loop playsinline preload="auto" poster="media/posterB.jpg" controls></video>
-    </div>
-    <div>
-      <div class="tag">Animation B</div>
-      <div class="aname">The Distribution</div>
-      <p class="what">The whole human population, drawn as one curve. It builds outward from the average, then a gold beam falls into the far left tail and stops where Julie actually measured.</p>
-      <div class="beats">
-        <div class="beat"><i>0.2s</i><p>Blue light and dust. The two numbers stated plainly in type.</p></div>
-        <div class="beat"><i>0.6s</i><p>Eighty four measurement lines grow outward from the mean.</p></div>
-        <div class="beat"><i>2.4s</i><p>A gold beam leaves 1.00 and travels into the left tail.</p></div>
-        <div class="beat"><i>3.2s</i><p><b>0.665, Julie Gibson Clark, 33.5% slower than average.</b></p></div>
-        <div class="beat"><i>5.0s</i><p>Resolve card, the rank she held, the cost she paid.</p></div>
-      </div>
-      <div class="btns">
-        <a class="btn" href="media/V2_LLA_JULIE_B_CURVE_6S_1080.mp4" download>Download MP4</a>
-        <a class="btn o" href="media/V2_LLA_JULIE_B_CURVE_6S.gif" download>Download GIF</a>
-      </div>
-    </div>
-  </div>
+<div class="film">
+<h3>Animation B · The Distribution</h3>
+<p class="k">Everyone ages at 1.00. Julie measured 0.665. Payoff: 33.5% slower.</p>
+<video src="media/PREV_B_CURVE_169.mp4" autoplay muted loop playsinline></video>
+<div class="dl">
+<a class="b" href="media/V3_LLA_B_CURVE_3840x2160_MASTER.mp4" download>16:9 · 3840×2160 · YouTube</a>
+<a class="b" href="media/V3_LLA_B_CURVE_2160x2160_MASTER.mp4" download>1:1 · 2160×2160 · Feed</a>
+<a class="b" href="media/V3_LLA_B_CURVE_2160x3840_MASTER.mp4" download>9:16 · 2160×3840 · Reels</a>
+<a class="b" href="media/V3_LLA_B_CURVE_1728x2160_MASTER.mp4" download>4:5 · 1728×2160 · Feed</a>
+</div>
+</div>
 </div></section>
 
-<section id="storyboard" style="background:linear-gradient(180deg,#04050A,#070B16 40%,#04050A)"><div class="wrap">
-  <div class="rule"></div>
-  <div class="snum reveal">02 · THE OPENING BUILDUP</div>
-  <h2 class="reveal">Five scenes, 20.8 seconds, no logo until she has earned it.</h2>
-  <p class="sub reveal">Prestige trailer shape. The claim first, the measurement second, the price third, the person fourth, the room last. Frames below are pre-visualisation plates with the exact on-screen card treatment in position.</p>
-
-  <!-- SCENE 1 -->
-  <div class="scene reveal">
-    <div class="sceneHead"><div class="no">01</div><div><div class="ti">The claim</div><div class="tt">00:00.0 to 00:03.9 · 3.9s</div></div></div>
-    <div class="plate">
-      <img src="media/s1.jpg" alt="Scene 1 pre-vis, dark studio portrait setup">
-      <div class="grade"></div>
-      <div class="tc">00:00.0</div><div class="lens">85mm · T1.8 · 3% push in</div>
-      <div class="card c-center"><b>33.5% slower than average</b></div>
-    </div>
-    <div class="spec">
-      <div><h4>Voice over</h4><p class="vo">I age thirty-three point five percent slower than average.</p></div>
-      <div><h4>Shot</h4><p>Chest-up portrait, eyes above centre, background fully softened. Soft key 45 degrees camera left, narrow cool rim rear right, one dim amber practical far behind. No logo, no lower third, no slate.</p></div>
-      <div><h4>B-roll at word</h4><p>On the first syllable of <b>slower</b>, cut 10 frames to a macro of her eye catching the key light, then return before <b>average</b> completes.</p></div>
-      <div><h4>Type</h4><p>Card enters over 6 frames on <b>slower</b>, centred lower middle, condensed white grotesque, black gradient only behind the baseline.</p></div>
-      <div><h4>Sound</h4><p>One low close cello harmonic, near-inaudible room tone, single sub hit exactly on 33.5. No percussion yet. Dialogue fully dominant and dry.</p></div>
-      <div><h4>Transition out</h4><p>Match cut from the circular catchlight in her eye to the circular assay marker on the printed DunedinPACE report.</p></div>
-    </div>
-  </div>
-
-  <!-- SCENE 2 -->
-  <div class="scene reveal">
-    <div class="sceneHead"><div class="no">02</div><div><div class="ti">The number</div><div class="tt">00:03.9 to 00:09.2 · 5.3s</div></div></div>
-    <div class="plate">
-      <img src="media/s2.jpg" alt="Scene 2 pre-vis, macro of a lab report under monitor light">
-      <div class="grade"></div>
-      <div class="tc">00:03.9</div><div class="lens">50mm macro · T4 · slider L to R</div>
-      <div class="card c-ul"><div class="k1">DunedinPACE <span style="color:#BFE6C8">0.665</span></div><div class="k2">Average is 1.00</div></div>
-    </div>
-    <div class="spec">
-      <div><h4>Voice over</h4><p class="vo">My DunedinPACE is zero point six six five. Average is one point zero zero.</p></div>
-      <div><h4>Shot</h4><p>Top-down macro of the cleared result document, 1.2 second slider move, then over her shoulder at a real desk on a 50mm at T2.8 with a slow 8 degree orbit toward her face.</p></div>
-      <div><h4>B-roll at word</h4><p>Land on the report at <b>DunedinPACE</b>, push into the result field on the first <b>six</b>, cut to the 0.665 over 1.00 comparison at <b>Average</b>, return to her hand on the page at <b>one</b>.</p></div>
-      <div><h4>Type</h4><p>Two cards as one quiet data readout, upper left. 0.665 set in pale mineral green, the benchmark line at 55 percent of the size in warm grey. No animated chart here.</p></div>
-      <div><h4>Sound</h4><p>Second cello a fifth above the first, faint pencil-on-paper on <b>DunedinPACE</b>, a short glass tick at 0.665 and a lower tick at 1.00. No medical monitor sounds.</p></div>
-      <div><h4>Transition out</h4><p>Dissolve from the diagonal edge of the report into the diagonal edge of a grocery receipt. Matching paper texture carries proof into practicality.</p></div>
-    </div>
-  </div>
-
-  <!-- SCENE 3 -->
-  <div class="scene reveal">
-    <div class="sceneHead"><div class="no">03</div><div><div class="ti">The constraint</div><div class="tt">00:09.2 to 00:13.1 · 3.9s</div></div></div>
-    <div class="plate">
-      <img src="media/s3.jpg" alt="Scene 3 pre-vis, ordinary kitchen counter before dawn">
-      <div class="grade"></div>
-      <div class="tc">00:09.2</div><div class="lens">35mm · T2.8 · composed handheld</div>
-      <div class="card c-ll"><div class="box">Roughly $100 a month</div><div class="n">Not a luxury protocol</div></div>
-    </div>
-    <div class="spec">
-      <div><h4>Voice over</h4><p class="vo">I do this for roughly one hundred dollars a month.</p></div>
-      <div><h4>Shot</h4><p>Her own counter, hands and torso only, ordinary groceries beside a receipt. Two inch lateral drift, never shaky, then a 65mm insert of the receipt total and a pen circling one line in a handwritten budget.</p></div>
-      <div><h4>B-roll at word</h4><p>Receipt on <b>roughly</b>, handwritten monthly total on <b>hundred</b>, a prepared meal going into the fridge on <b>month</b>, framed as habit rather than product.</p></div>
-      <div><h4>Type</h4><p>Bold white grotesque on a 70 percent charcoal rectangle, lower left. The second line holds only after the voice over ends, for 8 frames.</p></div>
-      <div><h4>Sound</h4><p>Restrained pulse enters, muted kick and brushed percussion at 82 BPM. Paper fold on <b>roughly</b>, pen tap on <b>hundred</b>, natural fridge thump on <b>month</b>. Dialogue 5 to 7 dB above score.</p></div>
-      <div><h4>Transition out</h4><p>Match cut on her hand closing the fridge to the same hand closing a laptop at her recruiting desk.</p></div>
-    </div>
-  </div>
-
-  <!-- SCENE 4 -->
-  <div class="scene reveal">
-    <div class="sceneHead"><div class="no">04</div><div><div class="ti">The person behind the proof</div><div class="tt">00:13.1 to 00:17.1 · 4.0s</div></div></div>
-    <div class="plate">
-      <img src="media/s4.jpg" alt="Scene 4 pre-vis, backlit strength training silhouette">
-      <div class="grade"></div>
-      <div class="tc">00:13.1</div><div class="lens">40mm · T2.2 · slow dolly to three-quarter</div>
-      <div class="card c-ul"><div class="k1">Single mom. Recruiter. Engineer.</div></div>
-      <div class="card c-lr"><div class="r">Held <em>#2</em> worldwide</div></div>
-    </div>
-    <div class="spec">
-      <div><h4>Voice over</h4><p class="vo">I am a mom, recruiter, former engineer. I follow evidence.</p></div>
-      <div><h4>Shot</h4><p>Profile three-quarter medium as she finishes a recruiting call, then a tight 85mm of her walking with her child from behind, hands linked, faces not required. Return to her reviewing notes beside a structural plan detail.</p></div>
-      <div><h4>B-roll at word</h4><p>Linked hands on <b>mom</b>, laptop closing on <b>recruiter</b>, fingertip on the structural plan at <b>former</b>, the cleared 2023 leaderboard asset at <b>evidence</b>.</p></div>
-      <div><h4>Type</h4><p>Three nouns in editorial serif upper left, 4 frame opacity rise only. The rank card enters lower right on <b>evidence</b>, #2 set 1.6 times larger, and holds 12 frames.</p></div>
-      <div><h4>Sound</h4><p>Pulse gains a muted analog bass note. Real laptop close, light paper trace, restrained upward string swell on <b>evidence</b>. The child moment stays unscored for its first 6 frames.</p></div>
-      <div><h4>Transition out</h4><p>Speed-ramped whip driven by her turning from the plan toward camera, resolving on the same direction as her entrance in scene five.</p></div>
-    </div>
-  </div>
-
-  <!-- SCENE 5 -->
-  <div class="scene reveal">
-    <div class="sceneHead"><div class="no">05</div><div><div class="ti">The room</div><div class="tt">00:17.1 to 00:20.8 · 3.7s</div></div></div>
-    <div class="plate">
-      <img src="media/s5.jpg" alt="Scene 5 pre-vis, dark teaching room with a blue lit stage">
-      <div class="grade"></div>
-      <div class="tc">00:17.1</div><div class="lens">50mm to 75mm · T2.0 · 12in push in</div>
-      <div class="card c-center"><b>I show my choices</b></div>
-    </div>
-    <div class="plate" style="margin-top:20px">
-      <div class="endcard"><div class="n">Julie Gibson Clark</div><div class="b">Longevity Life Academy</div></div>
-      <div class="tc" style="color:#0A0C10;background:rgba(255,255,255,.5)">00:20.0</div>
-      <div class="lens" style="color:#0A0C10;background:rgba(255,255,255,.5)">End card · hold 0.8s</div>
-    </div>
-    <div class="spec">
-      <div><h4>Voice over</h4><p class="vo">At Longevity Life Academy, I show how I choose.</p></div>
-      <div><h4>Shot</h4><p>Dark studio, medium close direct to camera, still authority. Slow push from 50mm to a 75mm equivalent crop by the final word, one wide 32mm reveal of table, notebook and defocused teaching monitor.</p></div>
-      <div><h4>B-roll at word</h4><p>Stay on her first direct gaze at <b>Longevity</b>, cut to the wide teaching view as her hand opens over the notebook at <b>show</b>, return to the portrait at <b>choose</b> and begin the end card.</p></div>
-      <div><h4>Type</h4><p>Ivory line centred low on <b>show</b>, 3 percent tracking. Full frame ivory end card on <b>choose</b>, black editorial serif name, smaller grotesque brand line. No logo appears anywhere before this card.</p></div>
-      <div><h4>Sound</h4><p>Strings lift an octave with a restrained piano octave at <b>Longevity</b>, warm cymbal swell opens the wide shot at <b>show</b>, first full chord on <b>choose</b>, then the chord breathes under the 0.8 second hold.</p></div>
-      <div><h4>Transition out</h4><p>Dissolve her rim light into the ivory card, the bright edge expanding until it becomes the field. The chord continues into the next section of the film.</p></div>
-    </div>
-  </div>
-
-  <h3 style="font-size:44px;margin-top:120px" class="reveal">Escalation map</h3>
-  <table class="reveal">
-    <tr><th>Scene</th><th>Belief installed</th><th>Tension</th><th>Proof on screen</th></tr>
-    <tr><td><b>01 The claim</b></td><td>Something measurable is different about this person</td><td>6</td><td>33.5% slower than average</td></tr>
-    <tr><td><b>02 The number</b></td><td>The claim is verified, not asserted</td><td>7</td><td>DunedinPACE 0.665 against 1.00</td></tr>
-    <tr><td><b>03 The constraint</b></td><td>This result is financially realistic</td><td>5</td><td>Roughly $100 a month</td></tr>
-    <tr><td><b>04 The person</b></td><td>A working parent achieved it, not a technologist</td><td>8</td><td>Held #2 on the 2023 leaderboard</td></tr>
-    <tr><td><b>05 The room</b></td><td>Her method can be learned, live</td><td>9</td><td>Longevity Life Academy faculty</td></tr>
-  </table>
-
-  <div class="note reveal">
-    <h3>Claim discipline, read this before the shoot</h3>
-    <p>The No. 2 rank is a held 2023 result, recorded before the leaderboard rule change. A live check on 6 August 2026 shows Bryan Johnson at 0.503 and Julie outside the visible top 25. Every card, every voice over line and both animations are written in the past tense on purpose. 0.665 against 1.00 is exactly 33.5 percent slower, computed rather than quoted. Monthly cost is reported between roughly $27 and $150 depending on the outlet, so every asset says roughly $100.</p>
-  </div>
+<section id="editor"><div class="wrap">
+<h2>Editor package · <i>separated layers</i></h2>
+<p class="lead">Same two films, split into a visuals pass with zero type and a typography pass on transparency. Drop the text layer over the visuals pass, or over Julie's footage, and retime any element on its own. Alpha is carried in VP9 WebM. The text on black files are for editors who prefer a screen or add blend mode.</p>
+<div class="stats">
+<div class="chip"><b>16</b><span>Layer files</span></div>
+<div class="chip"><b>VP9</b><span>Alpha codec</span></div>
+<div class="chip"><b>30fps</b><span>All passes</span></div>
+<div class="chip"><b>0</b><span>Text on visuals</span></div>
+</div>
+<table id="edt"><tr><th>Film and size</th><th>Visuals, no type</th><th>Type with alpha</th><th>Type on black</th></tr></table>
+<p class="lead" style="margin-top:34px">Working note for the editor: the visuals pass and the type pass are frame identical, so an overlay at 0,0 with no scaling rebuilds the master exactly. Film A runs its bar race from 0.95s to 3.35s and lands the payoff at 3.9s. Film B lights the mean column at 1.6s, Julie's column at 3.15s, and lands the payoff at 4.0s.</p>
 </div></section>
 
-<footer><div class="wrap">
-  <p style="font-family:'Instrument Serif',serif;font-size:34px;color:var(--cream)">Sources, all opened and verified 6 August 2026</p>
-  <div class="srcs">
-    <p><a href="https://www.rejuvenationolympics.com/dunedin-pace">Rejuvenation Olympics, DunedinPACE leaderboard</a> · live rank check</p>
-    <p><a href="https://fortune.com/well/2023/11/04/longevity-women-biohackers-diet-exercise-bryan-johnson/">Fortune</a> · 0.665 result and the 2023 rank</p>
-    <p><a href="https://github.com/danbelsky/DunedinPACE/blob/main/README.md">DunedinPACE reference documentation</a> · 1.00 population benchmark</p>
-    <p><a href="https://www.businessinsider.com/56-year-old-slowing-aging-spends-on-vegetables-supplements-gym-2024-11">Business Insider</a> · monthly protocol spend</p>
-    <p><a href="https://novoslabs.com/blog/novos-customer-stories/julie-gibson-clark-longevity-journey/">NOVOS Labs</a> · 0.76 to 0.68 to 0.65 trajectory</p>
-    <p><a href="https://www.usatoday.com/press-release/story/38081/julie-gibson-clark-who-out-aged-bryan-johnson-at-the-rejuvenation-olympics-joins-eteachers-longevity-life-academy-faculty/">USA Today press release</a> · faculty announcement</p>
-    <p><a href="https://www.cdc.gov/nchs/products/databriefs/db443.htm">CDC NCHS data brief</a> · 24.2 percent of US adults meet both guidelines</p>
-  </div>
-  <p style="margin-top:34px">Built for Longevity Life Academy by GiTA Agency. Animations 1080 by 1080, 60 fps, 6.02 seconds, silent. Storyboard specification also included as a markdown file in this repository.</p>
-</div></footer>
+<section id="story"><div class="wrap">
+<h2>Opening buildup, <i>five scenes</i></h2>
+<p class="lead">The trailer cold open the two animations were designed to sit inside.</p>
+<div id="sb"></div>
+<div class="dl"><a class="b g" href="LLA_JULIE_STORYBOARD.md" download>Download the storyboard</a></div>
+</div></section>
 
+<footer><div class="wrap">Gita Agency for Longevity Life Academy by eTeacher Group. Figures verified: DunedinPACE 0.665 against a population average of 1.00, which is 33.5% slower. Rank No. 2 on the Rejuvenation Olympics leaderboard is stated in the past tense because it was a 2023 result.</div></footer>
 <script>
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
-// make sure autoplay actually starts even if the browser defers it
-document.querySelectorAll('video').forEach(v=>{const go=()=>v.play().catch(()=>{});v.addEventListener('loadeddata',go);go();});
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+ document.querySelectorAll('section').forEach(x=>x.classList.remove('on'));
+ b.classList.add('on');document.getElementById(b.dataset.t).classList.add('on');window.scrollTo({top:0,behavior:'smooth'});});
+const films=[['A_PACE','Animation A'],['B_CURVE','Animation B']],sizes=[['3840x2160','16:9'],['2160x2160','1:1'],['2160x3840','9:16'],['1728x2160','4:5']];
+let h='<tr><th>Film and size</th><th>Visuals, no type</th><th>Type with alpha</th><th>Type on black</th></tr>';
+films.forEach(f=>sizes.forEach(s=>{const p='media/V3_LLA_'+f[0]+'_'+s[0]+'_';
+ h+='<tr><td>'+f[1]+' · '+s[1]+' · '+s[0]+'</td>'+
+ '<td><a class="b g" href="'+p+'VISUALS_ONLY.mp4" download>Visuals mp4</a></td>'+
+ '<td><a class="b g" href="'+p+'TEXT_ONLY_ALPHA.webm" download>Type WebM</a></td>'+
+ '<td><a class="b g" href="'+p+'TEXT_ON_BLACK.mp4" download>Type mp4</a></td></tr>';}));
+document.getElementById('edt').innerHTML=h;
 </script>
 </body></html>
