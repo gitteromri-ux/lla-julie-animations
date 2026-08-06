@@ -78,10 +78,10 @@ footer{background:var(--navy1);padding:56px 0;font-size:17px;color:var(--pale)}
 <p class="k">Ten years pass. She ages six. Payoff: 3.35 years she never aged.</p>
 <video src="media/PREV_A_PACE_169.mp4" autoplay muted loop playsinline></video>
 <div class="dl">
-<a class="b" href="media/V3_LLA_A_PACE_3840x2160_MASTER.mp4" download>16:9 · 3840×2160 · YouTube</a>
-<a class="b" href="media/V3_LLA_A_PACE_2160x2160_MASTER.mp4" download>1:1 · 2160×2160 · Feed</a>
-<a class="b" href="media/V3_LLA_A_PACE_2160x3840_MASTER.mp4" download>9:16 · 2160×3840 · Reels</a>
-<a class="b" href="media/V3_LLA_A_PACE_1728x2160_MASTER.mp4" download>4:5 · 1728×2160 · Feed</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_A_PACE_3840x2160_MASTER.mp4" download>16:9 · 3840×2160 · YouTube</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_A_PACE_2160x2160_MASTER.mp4" download>1:1 · 2160×2160 · Feed</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_A_PACE_2160x3840_MASTER.mp4" download>9:16 · 2160×3840 · Reels</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_A_PACE_1728x2160_MASTER.mp4" download>4:5 · 1728×2160 · Feed</a>
 </div>
 </div>
 
@@ -90,10 +90,10 @@ footer{background:var(--navy1);padding:56px 0;font-size:17px;color:var(--pale)}
 <p class="k">Everyone ages at 1.00. Julie measured 0.665. Payoff: 33.5% slower.</p>
 <video src="media/PREV_B_CURVE_169.mp4" autoplay muted loop playsinline></video>
 <div class="dl">
-<a class="b" href="media/V3_LLA_B_CURVE_3840x2160_MASTER.mp4" download>16:9 · 3840×2160 · YouTube</a>
-<a class="b" href="media/V3_LLA_B_CURVE_2160x2160_MASTER.mp4" download>1:1 · 2160×2160 · Feed</a>
-<a class="b" href="media/V3_LLA_B_CURVE_2160x3840_MASTER.mp4" download>9:16 · 2160×3840 · Reels</a>
-<a class="b" href="media/V3_LLA_B_CURVE_1728x2160_MASTER.mp4" download>4:5 · 1728×2160 · Feed</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_B_CURVE_3840x2160_MASTER.mp4" download>16:9 · 3840×2160 · YouTube</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_B_CURVE_2160x2160_MASTER.mp4" download>1:1 · 2160×2160 · Feed</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_B_CURVE_2160x3840_MASTER.mp4" download>9:16 · 2160×3840 · Reels</a>
+<a class="b" href="https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_B_CURVE_1728x2160_MASTER.mp4" download>4:5 · 1728×2160 · Feed</a>
 </div>
 </div>
 </div></section>
@@ -126,7 +126,7 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
  b.classList.add('on');document.getElementById(b.dataset.t).classList.add('on');window.scrollTo({top:0,behavior:'smooth'});});
 const films=[['A_PACE','Animation A'],['B_CURVE','Animation B']],sizes=[['3840x2160','16:9'],['2160x2160','1:1'],['2160x3840','9:16'],['1728x2160','4:5']];
 let h='<tr><th>Film and size</th><th>Visuals, no type</th><th>Type with alpha</th><th>Type on black</th></tr>';
-films.forEach(f=>sizes.forEach(s=>{const p='media/V3_LLA_'+f[0]+'_'+s[0]+'_';
+films.forEach(f=>sizes.forEach(s=>{const p='https://raw.githubusercontent.com/gitteromri-ux/lla-julie-animations/main/media/V3_LLA_'+f[0]+'_'+s[0]+'_';
  h+='<tr><td>'+f[1]+' · '+s[1]+' · '+s[0]+'</td>'+
  '<td><a class="b g" href="'+p+'VISUALS_ONLY.mp4" download>Visuals mp4</a></td>'+
  '<td><a class="b g" href="'+p+'TEXT_ONLY_ALPHA.webm" download>Type WebM</a></td>'+
